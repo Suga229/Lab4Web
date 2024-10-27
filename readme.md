@@ -46,4 +46,35 @@
 
 ![image](https://github.com/user-attachments/assets/fd81fda8-ffe5-459f-93a4-8f5754ea8d24)
 
+tiga kotak div berwarna merah,kuning dan hijau diatur secara sejajar horizontal
+menggunakan properti float
+
+<h1>3. mengatur clearfix element</h1>
+Clearfix digunakan untuk mengatur element setelah float element. Property clear digunakan untuk
+mengaturnya.
+
+    <section>
+        <div class="div1">Div 1</div>
+        <div class="div2">Div 2</div>
+        <div class="div3">Div 3</div>
+        <div class="div4">Div 4</div>
+    </section>
+    
+<h2>tambahkan property clear pada css</h2>
+
+    .div4 {
+    background-color: blue;
+    clear: left;
+    float: none;
+    }
+
+![image](https://github.com/user-attachments/assets/37199344-9650-4ae5-a7e9-0a729af52d53)
+
+menambahkan div 4 atau kotak keempat dengan warna biru lalu diatur clear pada property 
+untuk menghentikan efek float dari elemen sebelumnya, kemudian kotak tersebut muncul
+dibawah ketiga kotak diatas. ini berfungsi untuk memengatur aliran tata letak dalam
+mendesain halaman
+
+
+
 

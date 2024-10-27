@@ -112,3 +112,147 @@ mendesain halaman
 
 ![image](https://github.com/user-attachments/assets/2000f4dd-f616-4fe8-9de0-83a49267f798)
 
+kemudian tambahkan kode css untuk membuat layoutnya
+
+    /* import google font */
+    @import
+    url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+    @import
+    url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+    /* Reset CSS */
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        line-height:1;
+        font-size:100%;
+        font-family:'Open Sans', sans-serif;
+        color:#5a5a5a;
+    }
+    #container {
+        width: 980px;
+        margin: 0 auto;
+        box-shadow: 0 0 1em #cccccc;
+    }
+    /* header */
+    header {
+        padding: 20px;
+    }
+    header h1 {
+        margin: 20px 10px;
+        color: #b5b5b5;
+    }
+
+![image](https://github.com/user-attachments/assets/faa9cd48-85ff-46e1-a497-a97f74bf4866)
+
+<h1>membuat navigasi</h1>
+
+    /* navigasi */
+    nav {
+        display: block;
+        background-color: #1f5faa;
+    }
+    nav a {
+        padding: 15px 30px;
+        display: inline-block;
+        color: #ffffff;
+        font-size: 14px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    nav a.active,
+    nav a:hover {
+        background-color: #2b83ea;
+    }
+
+![image](https://github.com/user-attachments/assets/f60fe218-e634-4aed-a231-cd4d391a95f7)
+
+<h1>membuat hero panel</h1>
+
+    <section id="hero">
+                <h1>Hello World!</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem
+                elit, iaculis innisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla,
+                vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc
+                pretium ac.</p>
+                <a href="home.html" class="btn btn-large">Learn more &raquo;</a>
+            </section>
+<h2>css</h2>
+
+    /* Hero Panel */
+    #hero {
+        background-color: #e4e4e5;
+        padding: 50px 20px;
+        margin-bottom: 20px;
+    }
+    #hero h1 {
+        margin-bottom: 20px;
+        font-size: 35px;
+    }
+    #hero p {
+        margin-bottom: 20px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+![image](https://github.com/user-attachments/assets/c6deadcb-f57b-4c19-a21e-5d9c32107f83)
+
+<h1>mengatur layout main dan sidebar</h1>
+
+    /* main content */
+    #wrapper {
+        margin: 0;
+    }
+    #main {
+        float: left;
+        width: 640px;
+        padding: 20px;
+    }
+    /* sidebar area */
+    #sidebar {
+        float: left;
+        width: 260px;
+        padding: 20px;
+    }
+
+<h1>membuat sidebar widget</h1>
+
+            <aside id="sidebar">
+                <div class="widget-box">
+                  <h3 class="title">Widget Header</h3>
+                  <ul>
+                    <li><a href="#">Widget Link</a></li>
+                    <li><a href="#">Widget Link</a></li>
+                    <li><a href="#">Widget Link</a></li>
+                    <li><a href="#">Widget Link</a></li>
+                    <li><a href="#">Widget Link</a></li>
+                  </ul>
+                </div>
+                <div class="widget-box">
+                  <h3 class="title">Widget Text</h3>
+                  <p>Vestibulum lorem elit, iaculis in nisl volutpat, malesuada tincidunt
+                  arcu. Proin in leo fringilla, vestibulum mi porta, faucibus felis. Integer
+                  pharetra est nunc, nec pretium nunc pretium ac.</p>
+                </div>
+              </aside>
+
+<h1>menambahkan css</h1>
+
+    /* widget */
+    .widget-box {
+        border:1px solid #eee;
+        margin-bottom:20px;
+       }
+       .widget-box .title {
+        padding:10px 16px;
+        background-color:#428bca;
+        color:#fff;
+       }
+       .widget-box ul {
+        list-style-type:none;
+       }
+       .widget-box li {
+        border-bottom:1px solid #eee;
+       }
+

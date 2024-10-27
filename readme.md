@@ -75,6 +75,40 @@ untuk menghentikan efek float dari elemen sebelumnya, kemudian kotak tersebut mu
 dibawah ketiga kotak diatas. ini berfungsi untuk memengatur aliran tata letak dalam
 mendesain halaman
 
+<h1>Membuat layout sederhana</h1>
 
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Layout Sederhana</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+    
+        
+    </body>
+    </html>
+    
+<h1>kemudian buat kerangka layout dengan semantics element seperti berikut</h1>
 
+    </header>
+            <nav>  
+                <a href="home.html" class="active">Home</a>
+                <a href="artikel.html">Artikel</a>
+                <a href="about.html">About</a>
+                <a href="kontak.html">Kontak</a>
+            </nav>
+            <section id="hero"></section>
+            <section id="wrapper">
+                <section id="main"></section>
+                <aside id="sidebar"></aside>
+            </section>
+            <footer>
+                <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+            </footer>   
+
+![image](https://github.com/user-attachments/assets/2000f4dd-f616-4fe8-9de0-83a49267f798)
 

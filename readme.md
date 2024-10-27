@@ -196,7 +196,8 @@ kemudian tambahkan kode css untuk membuat layoutnya
         line-height: 25px;
     }
 
-![image](https://github.com/user-attachments/assets/c6deadcb-f57b-4c19-a21e-5d9c32107f83)
+![image](https://github.com/user-attachments/assets/e25eeb8b-d83a-4638-82f5-5c9b26ed19ae)
+
 
 <h1>mengatur layout main dan sidebar</h1>
 
@@ -256,3 +257,100 @@ kemudian tambahkan kode css untuk membuat layoutnya
         border-bottom:1px solid #eee;
        }
 
+![image](https://github.com/user-attachments/assets/fcb788eb-2b32-4ebb-86cc-571e17474dd6)
+
+
+<h1>mengatur footer</h1>
+
+    /* footer */
+    footer {
+        clear:both;
+        background-color:#1d1d1d;
+        padding:20px;
+        color:#eee;
+    }
+
+![image](https://github.com/user-attachments/assets/c1ff8137-dd0f-4f81-a06c-d45130206d37)
+
+<h1>menambahkan elemen lainnya pada main content</h1>
+
+                <section id="main">
+                <div class="row">
+                    <div class="box">
+                        <img src="https://dummyimage.com/120/db7d25/fff.png" alt=""
+                        class="image-circle">
+                        <h3>Heading</h3>
+                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis
+                        euismod.</p>
+                        <a href="#" class="btn btn-default">View detail</a>
+                    </div>
+                    <div class="box">
+                        <img src="https://dummyimage.com/120/3e73e6/fff.png" alt=""
+                        class="image-circle">
+                        <h3>Heading</h3>
+                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis
+                        euismod.</p>
+                        <a href="#" class="btn btn-default">View detail</a>
+                    </div>
+                    <div class="box">
+                        <img src="https://dummyimage.com/120/71e6d4/fff.png" alt=""
+                        class="image-circle">
+                        <h3>Heading</h3>
+                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis
+                        euismod.</p>
+                        <a href="#" class="btn btn-default">View detail</a>
+                    </div>
+                </div>
+               </section>
+
+<h1>css</h1>
+
+        /* box */
+        .box {
+        display:block;
+        float:left;
+        width:33.333333%;
+        box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        -webkit-box-sizing:border-box;
+        padding:0 10px;
+        text-align:center;
+        }
+        .box h3 {
+        margin: 15px 0;
+        }
+        .box p {
+        line-height: 20px;
+        font-size: 14px;
+        margin-bottom: 15px;
+        }
+        box img {
+        border: 0;
+        vertical-align: middle;
+        }
+        .image-circle {
+        border-radius: 50%;
+        }
+        .row {
+        margin: 0 -10px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        }
+        .row:after, .row:before,
+        .entry:after, .entry:before {
+        content:'';
+        display:table;
+        }
+        .row:after,
+        .entry:after {
+        clear:both;
+        }
+
+![image](https://github.com/user-attachments/assets/b89b8074-e50e-4f2e-aff9-a02439291b6e)
+
+
+
+
+
+    

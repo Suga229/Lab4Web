@@ -400,3 +400,117 @@ kemudian tambahkan kode css untuk membuat layoutnya
 
 ![image](https://github.com/user-attachments/assets/0e6d219e-6a25-4cc7-82b5-286dbadb4197)
 
+<h1>jawaban dan tugas</h1>
+
+<h2>tambahkan layout untuk menu about</h2>
+
+<H3>HTML</H3>
+
+            <section class="section">
+                <div class="header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="about-content">
+                    <img src="image.png" alt="About Me" width="300">
+                    <div class="about-text">
+                        <p>Hello! I'm Agus sunardi, a passionate developer and designer. I specialize in creating beautiful and user-friendly interfaces with a focus on simplicity and elegance.</p>
+                        <p>With a background in both design and development, I bring a unique perspective to every project. I love tackling complex problems and turning them into delightful user experiences.</p>
+                    </div>
+                </div>
+            </section>
+    
+            <!-- Portfolio Section -->
+            <section class="section">
+                <div class="header">
+                    <h1>My Portfolio</h1>
+                </div>
+                <div class="portfolio">
+                    <!-- Portfolio Item 1 -->
+                    <div class="portfolio-item">
+                        <img src="project1.jpg" alt="Project 1">
+                        <h3>Project Title 1</h3>
+                        <p>Short description of the project.</p>
+                    </div>
+                    <!-- Portfolio Item 2 -->
+                    <div class="portfolio-item">
+                        <img src="project2.jpg" alt="Project 2">
+                        <h3>Project Title 2</h3>
+                        <p>Short description of the project.</p>
+                    </div>
+                    <!-- Add more portfolio items as needed -->
+                </div>
+            </section>
+
+<h3>CSS</h3>
+
+
+    .section {
+        padding: 40px 0;
+    }
+    
+    .header {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    
+    .header h1 {
+        font-size: 2.5em;
+        color: #333;
+    }
+    
+    .about-content {
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    
+    .about-content img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+    
+    .about-text {
+        max-width: 600px;
+    }
+    
+    .about-text p {
+        color: #555;
+        line-height: 1.6;
+    }
+    
+    .portfolio {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        margin-top: 40px;
+    }
+    
+    .portfolio-item {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+    
+    .portfolio-item:hover {
+        transform: translateY(-10px);
+    }
+    
+    .portfolio-item img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+    
+    .portfolio-item h3 {
+        margin-top: 15px;
+        font-size: 1.2em;
+        color: #333;
+    }
+
+![image](https://github.com/user-attachments/assets/d480788f-d358-444c-b647-8c47783f5f80)
+
+
+<h2>2. menambahkan layout untuk menu contact</h2>
